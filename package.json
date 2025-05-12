@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test-doh":"jest --detectOpenHandles",
+    "test-watch":"jest --watch",
     "dev": "node --watch src/index.js",
     "start": "NODE_ENV=production node src/index.js"
   },
